@@ -19,7 +19,8 @@ WHERE
 
 
 SELECT
-  SUM(Cost)
+  SUM(Cost),
+  AVG(SearchImpressionShare)
 FROM
   GAInterDecCampaignReport.CAMPAIGN_PERFORMANCE_REPORT
 WHERE
